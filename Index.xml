@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE cuisine [
+<!-- 
+  Author: Mirak Bumnanpol
+  Student Number: c3320409
+  Name of document: Index.xml
+  Assignent 1 SENG1050
+  Date file was created 10th April 2019
+  -->
+
+<!ELEMENT cuisine (cuisineType)>
+	<!ELEMENT cuisineType (restaurant*)>
+
+		<!ELEMENT restaurant (restaurantname, restaurantlogo?, restaurantpicture+, url, address, phonenumber+, restaurantdescription, openinghours, delivery, minimumprice, deliveryfee, ratings, testimonials, bestrateddish)> 
+		<!ELEMENT restaurantname (#PCDATA)>
+		<!ELEMENT restaurantlogo (#PCDATA)>
+		<!ELEMENT restaurantpicture (#PCDATA)>
+		<!ELEMENT url (#PCDATA)>
+		<!ELEMENT address (#PCDATA)>
+		<!ELEMENT phonenumber (#PCDATA)>
+
+		<!ELEMENT restaurantdescription (#PCDATA)>
+
+		<!ELEMENT openinghours (monday, tuesday, wednesday, thursday, friday, saturday, sunday)>
+
+		<!ELEMENT delivery (#PCDATA)>
+		<!ELEMENT minimumprice (#PCDATA)>
+		<!ELEMENT deliveryfee (#PCDATA)>
+		<!ELEMENT ratings (#PCDATA)>
+		<!ELEMENT testimonials (#PCDATA)>
+		<!ELEMENT bestrateddish (#PCDATA)>
+
+		<!ELEMENT monday (#PCDATA)>
+		<!ELEMENT tuesday (#PCDATA)>
+		<!ELEMENT wednesday (#PCDATA)>
+		<!ELEMENT thursday (#PCDATA)>
+		<!ELEMENT friday (#PCDATA)>
+		<!ELEMENT saturday (#PCDATA)>
+		<!ELEMENT sunday (#PCDATA)>
+
+]>
+
+<cuisine>
+
+	<cuisineType>
+
+		<restaurant>
+			<restaurantname></restaurantname>
+			<restaurantlogo></restaurantlogo>
+			<restaurantpicture></restaurantpicture>
+			<url></url>
+			<address></address>
+			<phonenumber></phonenumber>
+			<restaurantdescription></restaurantdescription>
+			<delivery></delivery>
+			<minimumprice></minimumprice>
+			<deliveryfee></deliveryfee>
+			<ratings></ratings>
+			<testimonials></testimonials>
+			<bestrateddish></bestrateddish>
+			<openinghours>
+				<monday></monday>
+				<tuesday></tuesday>
+				<wednesday></wednesday>
+				<thursday></thursday>
+				<friday></friday>
+				<saturday></saturday>
+				<sunday></sunday>
+			</openinghours>
+		</restaurant>
+
+		<restaurant>
+			<restaurantname></restaurantname>
+			<restaurantlogo></restaurantlogo>
+			<restaurantpicture></restaurantpicture>
+			<url></url>
+			<address></address>
+			<phonenumber></phonenumber>
+			<restaurantdescription></restaurantdescription>
+			<delivery></delivery>
+			<minimumprice></minimumprice>
+			<deliveryfee></deliveryfee>
+			<ratings></ratings>
+			<testimonials></testimonials>
+			<bestrateddish></bestrateddish>
+			<openinghours>
+				<monday></monday>
+				<tuesday></tuesday>
+				<wednesday></wednesday>
+				<thursday></thursday>
+				<friday></friday>
+				<saturday></saturday>
+				<sunday></sunday>
+			</openinghours>
+			</restaurant>
+
+			<restaurant>
+			<restaurantname></restaurantname>
+			<restaurantlogo></restaurantlogo>
+			<restaurantpicture></restaurantpicture>
+			<url></url>
+			<address></address>
+			<phonenumber></phonenumber>
+			<restaurantdescription></restaurantdescription>
+
+			<delivery></delivery>
+			<minimumprice></minimumprice>
+			<deliveryfee></deliveryfee>
+			<ratings></ratings>
+			<testimonials></testimonials>
+			<bestrateddish></bestrateddish>
+						<openinghours>
+				<monday></monday>
+				<tuesday></tuesday>
+				<wednesday></wednesday>
+				<thursday></thursday>
+				<friday></friday>
+				<saturday></saturday>
+				<sunday></sunday>
+			</openinghours>
+		</restaurant>
+		
+	</cuisineType>
+
+</cuisine>
